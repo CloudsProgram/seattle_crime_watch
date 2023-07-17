@@ -1,0 +1,4 @@
+DO NOT EDIT ANYTHING IN HERE
+
+initial_data_loaded=False
+last_updated_month=None

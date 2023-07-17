@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: staging
+    schema: seattle_crime_staging
+    tables:
+      - name: seattle_crime_data_partitioned_clustered
+
+# models:
+#   - name: stg_seattle_crime
+#     description: "stage model from seattle crime data"
+
+

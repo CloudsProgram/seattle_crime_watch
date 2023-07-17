@@ -1,0 +1,13 @@
+.bashrc
+*.csv.gz
+*.parquet
+*.crc
+*_SUCCESS
+*.jar
+*.json
+
+creds/*.json
+
+*.terraform
+*.terraform*
+*terraform.tfstat*

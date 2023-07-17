@@ -1,0 +1,20 @@
+seattle_crime:
+  target: prod
+  outputs:
+    dev:
+      dataset: seattle_crime_staging
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      method: service-account
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS')}}"
+      priority: interactive
+      project: seattle-crime-watch
+      threads: 4
+      type: bigquery
+    prod:
+      type: bigquery
+      method: service-account
+      keyfile: "{{ env_var('GOOGLE_APPLICATION_CREDENTIALS')}}"
+      dataset: seattle_crime
+      threads: 4
+  
