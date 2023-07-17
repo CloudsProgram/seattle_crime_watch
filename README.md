@@ -142,7 +142,7 @@ If you have successfully followed these steps, congratulations! The Seattle Crim
 			
 ## Future Improvements
 -	Dockerize the set up
--	Have everything run via cloud
+-	Have everything run via cloud 
 		
 		
 			
