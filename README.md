@@ -12,6 +12,7 @@ Goal of this project is to build a data pipeline which ingests Seattle Crime Dat
 2. Which areas have the most property/violent crime?
 3. What are the specific crimes being committed (Breakdown)?
 
+**Example Dashboard:**
 ![seattle_crime_dashboard](/images/visualization.jpg)
 
 
