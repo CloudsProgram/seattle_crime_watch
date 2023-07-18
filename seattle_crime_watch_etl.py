@@ -347,7 +347,7 @@ def last_ingestion_check() -> tuple[bool, str]:
 
 @flow(name="dbt modelling", log_prints=True)
 def dbt_model():
-    """This """
+    """This allows me to run DBT(data build tool) which will conduct transformation and establish the fact table """
     # initialize
     dbt = dbtRunner()
 
